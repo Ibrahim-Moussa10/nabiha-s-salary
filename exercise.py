@@ -12,3 +12,23 @@ if savings_percentage < 0 or savings_percentage > 100:
     quit()
 rent_percentage = float(input("Enter the rent percentage: "))
 electricity_percentage = float(input("Enter the electricity percentage: ")) 
+
+savings = salary * savings_percentage / 100
+rent = salary * rent_percentage / 100
+electricity = salary * electricity_percentage / 100
+
+total_expenses = savings + rent + electricity
+
+remaining = salary - total_expenses
+
+yearly_rent = rent * 12
+
+yearly_electricity = electricity * 12
+
+salary_p2 = salary ** 2
+
+additional_saves = 50
+
+lesft_savingd = additional_saves / savings
+
+
