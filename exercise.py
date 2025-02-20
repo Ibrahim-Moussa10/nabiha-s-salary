@@ -25,6 +25,8 @@ yearly_rent = rent * 12
 
 yearly_electricity = electricity * 12
 
+yearly_rentandelectricity = yearly_rent + yearly_electricity
+
 salary_p2 = salary ** 2
 
 additional_saves = 50
@@ -46,6 +48,8 @@ print(f"Remaining: {remaining}")
 print(f"Yearly rent: {yearly_rent}")
 
 print(f"Yearly electricity: {yearly_electricity}")
+
+print(f"Yearly rent and electricity: {yearly_rentandelectricity}")
 
 print(f"Salary squared: {salary_p2}")
 
