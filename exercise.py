@@ -31,4 +31,23 @@ additional_saves = 50
 
 lesft_savingd = additional_saves / savings
 
+print(f"Calculating the expenses for {month}...")
+
+print(f"Total savings: {savings}")
+
+print(f"Total rent: {rent}")
+
+print(f"Total electricity: {electricity}")
+
+print(f"Total expenses: {total_expenses}")
+
+print(f"Remaining: {remaining}")
+
+print(f"Yearly rent: {yearly_rent}")
+
+print(f"Yearly electricity: {yearly_electricity}")
+
+print(f"Salary squared: {salary_p2}")
+
+print(f"Additional savings: {additional_saves}")
 
